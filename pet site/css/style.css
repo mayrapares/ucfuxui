@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(192, 192, 192);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#172106+0,42361c+100 */
+    background: #172106; /* Old browsers */
+    background: -moz-linear-gradient(left,  #172106 0%, #42361c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #172106 0%,#42361c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #172106 0%,#42361c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#172106', endColorstr='#42361c',GradientType=1 ); /* IE6-9 */
+
+}
+
+.navigation {
+    color: whitesmoke;
+    padding: 12px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.navigation:hover {
+    background-color: rgb(79, 161, 79);
+}
+
+.left {
+    width: 20%;
+    float: left;
+    height: 600px;
+}
+
+.right {
+    width: 70%;
+    float: right;
+    height: 600px;
+}
+
+#avatar {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(160, 109, 59, 0.5);
+    padding-bottom: 30px;
+    border-bottom: 1px solid #42361c;
+}
+
+#avatar img {
+    width: 65%;
+    height: auto;
+    margin-top: 30px;
+    border: solid 1px black;
+}
+#stats {
+    padding-top: 30px;
+    background-color: rgb(160, 109, 59, 0.25);
+    padding-bottom: 30px;
+}
+#stats h3, #stats p { 
+    padding-left: 30px;
+}
+
+.mainArea {
+    margin-top: 30px;
+}
+
+.mainArea, .minGallery {
+    padding: 20px;
+}
+
+.mainArea img {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    border-radius: 3px;
+    padding: 5px 5px 20px;
+    background-color: white;
+}
+
+.minGallery img {
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 5px 5px 20px;
+    background-color: white;
+}
